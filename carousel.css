@@ -67,6 +67,10 @@ body {
   letter-spacing: -.05rem;
 }
 
+.featurette-image {
+  display: block;
+}
+
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
