@@ -67,6 +67,7 @@ body {
   letter-spacing: -.05rem;
 }
 
+/* center the featurette images when less than 500px - tf
 .featurette-image {
   display: block;
 }
