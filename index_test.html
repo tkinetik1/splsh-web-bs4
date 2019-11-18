@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Splash! Dog Washing</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="icon" href="/docs/4.0/assets/img/favicons/favicon.ico">
+
+  <!-- Bootstrap core CSS via CDN -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+  <!-- Custom styles for this template -->
+  <link href="splash-main.css" rel="stylesheet">
+
+</head>
+<body>
+    <!-- Bootstrap Carousel Example header - includes navbar -->
+    <header>
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <a class="navbar-brand" href="#">Splash! Dog Washing</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav ml-auto">
+             <li class="nav-item active">
+              <a class="nav-link" href="#">Why Splash?<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Shop</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="#">How it Works</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="#">FAQ</a>
+            </li>
+          </ul>
+<!--           <form class="form-inline mt-2 mt-md-0">
+            <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form> -->
+        </div>
+      </nav>
+    </header>
+
+    <main role="main">
+
+      <div class="jumbotron jumbotron-fluid">
+  <video preload muted autoplay loop>
+    <source src="http://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+    <source src="http://www.w3schools.com/html/mov_bbb.ogg" type="video/ogg">
+  </video>
+
+  <div class="container text-white">
+
+    <h1 class="display-4">Hello, world!</h1>
+    <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+    <hr class="my-4">
+    <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+    <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+
+  </div>
+  <!-- /.container -->
+</div>
+<!-- /.jumbotron -->
+
+      <!-- Marketing messaging and featurettes
+      ================================================== -->
+      <!-- Wrap the rest of the page in another container to center all the content. -->
+
+      <div class="container marketing">
+
+        <!-- START THE FEATURETTES -->
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+          <div class="col-md-5">
+            <img class="featurette-image img-fluid mx-auto" src="img/review1.png" alt="Generic placeholder image">
+          </div>
+          <div class="col-md-7">
+            <h2 class="featurette-heading">"Excellent service!"</h2>
+            <p class="lead">"Excellent service! My puppy does not do well with strangers, especially groomers. He will try to bite.  I liked the option of having a groomer come to the house with his equipment because it was more convenient for me and my puppy will feel a bit more safe at home. He took the time to get to know my puppy and make him feel more comfortable before he started to bathe him."<h3 class="text-muted">Jackie M. - Five Star Review from Facebook </h3></p>
+
+          </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+          <div class="col-md-7 ">
+            <h2 class="featurette-heading">"The prices are super affordable considering it’s at your own home."</h3>
+            <p class="lead">"I can’t believe there is a grooming service so convenient to come to your house. It was so easy to book an appointment online. The groomer came to our house with all towels, tools and equipment needed to do the job. He spent time to get our puppy to trust him.​ The prices are super affordable considering it’s at your own home."<h3 class="text-muted">Lily D. - Five Star Review from Facebook </h3></p>
+          </div>
+          <div class="col-md-5 ">
+            <img class="featurette-image img-fluid mx-auto" src="img/review2.png" alt="Generic placeholder image">
+          </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <!-- /END THE FEATURETTES -->
+
+      </div><!-- /.container -->
+
+      <!-- FOOTER -->
+      <footer class="container">
+        <p class="float-right"><a href="#">Back to top</a></p>
+        <p>&copy; 2019 Splash Growth &middot; <a href="#">Privacy Policy</a> &middot; <a href="#">Terms of Use</a></p>
+      </footer>
+    </main>
+  <script type="text/javascript">
+    
+    function deferVideo() {
+
+    //defer html5 video loading
+  $("video source").each(function() {
+    var sourceFile = $(this).attr("data-src");
+    $(this).attr("src", sourceFile);
+    var video = this.parentElement;
+    video.load();
+    // uncomment if video is not autoplay
+    video.play();
+  });
+
+}
+window.onload = deferVideo;
+
+  </script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
